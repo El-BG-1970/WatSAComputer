@@ -46,20 +46,41 @@ body {
     font-family: Iosevka;
     font-weight: bold;
     color: white;
-    display: flex;
 }
 
 .head {
+    display: flex;
     align-items: flex-start;
-}
-
-.tableofcontents {
-    align-items: center;
     justify-content: left;
 }
 
+.tableofcontents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head {
+    font-size: 25px;
+}
+
+.head2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
 .processors {
+    margin-top: 75px;
     align-items: center;
     justify-content: right;
+}
+
+.entry {
+    margin-bottom: 50px;
 }
 
