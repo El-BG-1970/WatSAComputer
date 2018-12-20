@@ -61,6 +61,7 @@ body {
 }
 
 .head {
+    margin-top: 75px;
     font-size: 25px;
 }
 
@@ -74,13 +75,17 @@ body {
     flex-direction: column;
 }
 
-.processors {
-    margin-top: 75px;
-    align-items: center;
-    justify-content: right;
-}
-
 .entry {
     margin-bottom: 50px;
+    margin-left: 5%;
 }
 
+
+.footer {
+    margin-top: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: green;
+    background-color: black;
+    width: 99%;
+}   

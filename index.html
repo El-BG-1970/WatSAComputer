@@ -19,21 +19,21 @@
 	<ul class="menu">
 	  <a href="#CPU" style="color:white">LE CPU (Core Processing Unit)</a>
 	  <a href="#GPU" style="color:white">LE GPU (Graphics Processing Unit)</a>
-	  <a>LES APU (Accelerated Processing unit)</a>
 	</ul>
 	
 	<a class="head2">LES MÉMOIRES</a>
 	<ul class="menu">
-	  <a>LA RAM (Random Access Memory)</a>
-	  <a>LA ROM (Read Only Memory)</a>
-	  <a>£££ ($$$)</a>
+	  <a href="#CACHE" style="color:white">LA MÉMOIRE CACHE</a>
+	  <a href="#RAM" style="color:white">LA RAM (Random Access Memory)</a>
+	  <a href="#ROM" style="color:white">LA ROM (Read Only Memory)</a>
+	  <a href="#DISK" style="color:white">LA MÉMOIRE DISQUE</a>
 	</ul>
 
-	<a class="head2">LES CIRCUITS INTÉGRÉS</a>
+	<a class="head2">AUTRES</a>
 	<ul class="menu">
-	  <a>LA CARTE MÈRE</a>
-	  <a>LA CLOCK</a>
-	  <a>$$$ (£££)</a>
+	  <a href="#MOBO" style="color:white">LA CARTE MÈRE</a>
+	  <a href="#CLOCK" style="color:white">LA CLOCK</a>
+	  <a href="#BUS" style="color:white">LES BUS</a>
 	</ul>
       </ul>
 
@@ -42,7 +42,41 @@
 	<a name="CPU">LE CPU: <p class="entry">Une des parties les plus importantes d'un ordinateur. Généralement défini par des unités de logique arithmétique(ALU) et/ou des unités de controle (CU). Doit être joint a une mémoire première pour former le complexe processeur-mémoire décrit dans l'architecture Von Neumann.</p></a>
 	<a name="GPU">LE GPU: <p class="entry">Un circuit électronique spécialisé généralement composé d'un ou plusieurs microprocesseurs dédiés à la génération de graphismes complexes. Le GPU permet notamment un gain de vitesse notoire en générant les graphismes en utilisant du hardware et non du software, allégant la tache du CPU. De plus la structure extrêmement parallèle des GPUs leur permet de faire des calculs sur des très grosses masses d'information plus vite que les CPU.</p></a>
       </div>
+
+      <div class="memories">
+	<p class="head">MÉMOIRES</p>
+	<a name="CACHE">LE CACHE: <p class="entry">Le type de mémoire le plus rapproché du processeur, au point qu'il y est souvent directement intégré. Il permet notamment les échanges d'information entre le processeur et la RAM. Il contient donc en général les addresses de la RAM, et permet donc d'y accéder plus rapidement et efficacement.</p></a>
+	<a name="RAM">LA RAM: <p class="entry">Mémoire volatile qui est utilisée pour accéder temporairement a des applications ou autres informations. Son nom est issu de son organisation. En effet, la RAM est arrangée sous la forme d'une matrice a deux dimensions ou chaque case est repérée par un nombre de colonne et un nombre de ligne. Cette organisation indépendante de chaque mémoire permet donc d'accédér a chaque mémoire en aussi peu de temps qu'il est nécéssaire pour accéder a quelconque autre mémoire, d'ou le nom "Random Access Memory".</p></a>
+	<a name="ROM">LA ROM: <p class="entry">Une mémoire non volatile dont le contenu ne peut généralement pas être modifié. Même si elle ne peut être modifiée, son organisation est identique a celle de la RAM, ce qui signifie que les mémoires de la ROM sont disponibles en accès aléatoire (random access).</p></a>
+	<a name="DISK">LE DISQUE: <p class="entry">La mémoire disque est une mémoire qui permet d'archiver tous les objet dont le processeur n'a pas besoin pour effectuer son travail. Ces derniers incluent notamment les disques durs, et sont utilisés pour enregistrer toutes les informations de l'utilisateur.</p></a>
+      </div>
+
+      <div class="autres">
+	<p class="head">AUTRES</p>
+	<a name="MOBO">LA CARTE MÈRE: <p class="entry">Un circuit imprimé dans lequel sont branchés les autres circuits et périphériques nécéssaires au bon fonctionnement de l'ordinateur. En général, la carte mère porte tous les éléments de la machine et peut être améliorée par l'ajout de cartes spécialisées supplémentaires qui permettent d'étendre ses capacités. Ces dèrnières y sont liées par des bus specifiques.</p></a>
+	<a name="CLOCK">L'HORLOGE: <p class="entry">Un occillateur électronique qui génère des pulsions a "heure" fixe. Cette "heure" est calculée très précisément et l'intégralité des calculs de l'ordinateur sont organisées autour de cette horloge.</p></a>
+	<a name="BUS">LES BUS: <p class="entry">Le terme bus désigne un dispositif de transmission partagé entre plusieurs composants du systèmes. Les bus sont en général optimisés pour la quantité de bits dans les "mots" échangés entre les périphériques.</p></a>
+      </div>
     </div>
   </body>
-  
+
+  <footer>
+    <div class="footer"><p><center>Ce site vous est gentiment proposé par</center></p>
+      <pre><center>
+	                                                        
+  .    .                                  i  j.         
+  Di   Dt            ..       :          LE  EW,        
+  E#i  E#i          ,W,     .Et         L#E  E##j       
+  E#t  E#t         t##,    ,W#t        G#W.  E###D.     
+  E#t  E#t        L###,   j###t       D#K.   E#jG#W;    
+  E########f.   .E#j##,  G#fE#t      E#K.    E#t t##f   
+  E#j..K#j...  ;WW; ##,:K#i E#t    .E#E.     E#t  :K#E: 
+  E#t  E#t    j#E.  ##f#W,  E#t   .K#E       E#KDDDD###i
+  E#t  E#t  .D#L    ###K:   E#t  .K#D        E#f,t#Wi,,,
+  f#t  f#t :K#t     ##D.    E#t .W#G         E#t  ;#W:  
+   ii   ii ...      #G      .. :W##########WtDWi   ,KK: 
+                    j          :,,,,,,,,,,,,,.          
+
+      </center></pre>
+  </footer>
 </html>
